@@ -19,7 +19,7 @@ use Log::ger ();
 );
 
 1;
-# ABSTRACT: Set default log level from some environment variables
+# ABSTRACT: Define logging levels like Ruby's logging library
 
 =head1 SYNOPSIS
 
