@@ -7,11 +7,11 @@ use Log::ger ();
 
 %Log::ger::Levels = (
     unknown => 0,
-    fatal   => 1,
-    error   => 2,
-    warn    => 3,
-    info    => 4,
-    debug   => 5,
+    fatal   => 10,
+    error   => 20,
+    warn    => 30,
+    info    => 40,
+    debug   => 50,
 );
 
 %Log::ger::Level_Aliases = (
@@ -36,12 +36,12 @@ output destinations per log event, custom formatting, and more."
 
 This module changes the L<Log::ger> levels to:
 
- unknown (0)
- fatal (1)
- error (2)
- warn (3)
- info (4)
- debug (5)
+    unknown => 0,
+    fatal   => 10,
+    error   => 20,
+    warn    => 30,
+    info    => 40,
+    debug   => 50,
 
 
 =head1 SEE ALSO
